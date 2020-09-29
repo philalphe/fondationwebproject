@@ -48,7 +48,7 @@ body{
 
 }
 
- 
+ /*styling the images*/
 .grid-wrapper{
     display: grid;
     grid-gap: 15px;
@@ -67,20 +67,10 @@ body{
 }
 
 
-
-/*.navcenter{
-	padding-left: 50px;
-	background-color: rgba(1,129,140,0.2);
-}*/
-
 .sect{
 	padding-top: 10px;
 }
 
-.space {
-    padding-left:200px;
-     padding-right:200px;
-}
 
 .tag.-blue {
     background-color: #01818c;
