@@ -114,3 +114,20 @@ body{
 a>i:hover{
 	color: #000;
 }
+
+.container.signincontainer{
+    margin-top: 8%;
+}
+
+.signcard{
+   padding: 40px 0px 20px;
+    background-color: #C0C0C0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5); 
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.5); 
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,.5); 
+}
+
+form.signform{
+    max-width: 250px;
+    margin: auto;
+}
