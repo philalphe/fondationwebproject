@@ -1,19 +1,19 @@
-body{
-	background:  #e3e0cf;
-	/*background: #c5d5cb*/
+/*Colors selection for the sections*/
+.sectionheader{
+    background:  #e3e0cf;
 }
 
-/*styling the logo*/
-.headerbox{
-	display: flex;
-	padding-left: 60px;
+.sectionlight{
+    background-color: #b8c6db;
+    padding: 2rem;
 }
 
-.photosize{
-	height: 200px;
-	width: 200px;
-	display: flex;
+.sectiondark{
+    background-color: #f5f7fa;
+    padding: 2rem;
+
 }
+
 
 /*styling the navbar*/
 .navbar-nav li:hover > ul.dropdown-menu {
@@ -34,31 +34,12 @@ body{
 .dropdown-menu > li > a:hover:after {
     text-decoration: underline;
     transform: rotate(-90deg);
-}
-
-/*styling the section*/
-.sectionlight{
-    background-color: #f5f7fa;
-    padding: 2rem;
-}
-
-.sectiondark{
-    background-color: #9fa8a3;
-    padding: 2rem;
-
-}
-
- /*styling the images*/
-.grid-wrapper{
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-}
+} 
 
 
 .box> a >img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .box{
@@ -66,11 +47,29 @@ body{
     margin: 20px;
 }
 
+.boxes{
+    display: flex;
+    padding-left: 60px;
+}
+.responsive{
+    width: 100%;
+    height: auto;
 
-.sect{
-	padding-top: 10px;
 }
 
+.photosize{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.sectionspace{
+    padding-top: 50px;
+}
+
+.minspace{
+    padding: 30px 20px;
+}
 
 .tag.-blue {
     background-color: #01818c;
@@ -90,29 +89,30 @@ body{
 }
 
 .fntselect{
-	font-family: 'Lemonada', cursive, 'Orbitron', sans-serif;
-	color: #fff;
+    font-family: 'Lemonada', cursive, 'Orbitron', sans-serif;
+    color: #fff;
 }
 
-.list-unstyled > li >a:hover{
-	color: #000;
+.list-unstyled>li>a:hover{
+    color: #000;
 }
 
-.footp{
-	line-height: 1.5em;
-    font-size: 15px;
-}
+/*Colors for the logo icons*/
 .fa-facebook-square{
-	color: #4267B2;
+    color: #4267B2;
 }
 .fa-instagram{
-	color: #8a3ab9;
+    color: #8a3ab9;
 }
 .fa-twitter-square{
-	color: #26a7de;
+    color: #26a7de;
 }
 a>i:hover{
-	color: #000;
+    color: #000;
+}
+.fntlogin{
+   font-family:  'Lemonada', cursive;
+   color: #000;
 }
 
 .container.signincontainer{
