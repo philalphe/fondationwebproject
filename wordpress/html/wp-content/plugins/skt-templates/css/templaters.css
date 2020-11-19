@@ -7,8 +7,9 @@
 /* Common CSS End*/
 
 /* MyDog */
-.mydog-section-2:after{background-image: url(https://demosktthemes.com/free/mydog/wp-content/themes/my-dog/images/halfcircle_up.png); background-repeat: repeat-x; background-position: center top; content: ""; display: block; height: 25px; position: absolute; bottom: -4px; width: 100%; z-index: 999;}
 .mydog-section-2:before {background-image: url(https://demosktthemes.com/free/mydog/wp-content/themes/my-dog/images/halfcircle_down.png); background-repeat: repeat-x; background-position: center top; content: ""; display: block; height: 25px; position: absolute; top: -4px; width: 100%; z-index: 999;}
+
+.mydog-section-1:after {background-image: url(https://demosktthemes.com/free/mydog/wp-content/themes/my-dog/images/halfcircle_up.png); background-repeat: repeat-x; background-position: center top; content: ""; display: block; height: 25px; position: absolute; bottom: -4px; width: 100%; z-index: 999;}
 
 .mydog-section-2 .services-box-image .elementor-widget-container {display: flex; width: 130px !important; height: 130px; border-radius: 50%; text-align: center; justify-content: center; align-items: center; margin: 0 auto; transition: all 0.2s;}
 .mydog-section-2 .services-box-dots{text-align: center;}
@@ -29,6 +30,9 @@
 .workout-cont-box .elementor-image-box-content{transform:skew(20deg);  -ms-transform: skew(20deg); -webkit-transform: skew(20deg);}
 .workout-cont-box .elementor-image-box-description{text-indent:15px;}
 .workout-cont-box .elementor-image-box-title{margin-left:30px; margin-top: 0;}
+
+.martial-arts-btn, .martial-arts-btn .elementor-button-wrapper{display:inline-block;vertical-align:top;margin:0; border-radius:0;-webkit-transform:skew(-20deg);-moz-transform:skew(-20deg);-ms-transform:skew(-20deg);-o-transform:skew(-20deg);}
+.martial-arts-btn a, .martial-arts-btn .elementor-button-wrapper a{-moz-transform:skew(20deg);-ms-transform:skew(20deg);-webkit-transform:skew(20deg);}
 
 .service-box{transform:skew(-7deg); -ms-transform: skew(-7deg); -webkit-transform: skew(-7deg);}
 .service-box .elementor-image-box-wrapper{transform:skew(7deg); -ms-transform: skew(7deg); -webkit-transform: skew(7deg);}

@@ -18,9 +18,6 @@
  * @package WordPress
  */
 
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress_db');
@@ -49,14 +46,14 @@ define( 'DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '9fa5ce3cb72f1183b9089da67f67acb247b3bfde');
-define( 'SECURE_AUTH_KEY',  'f91e2c418bbbb97729c6ad91601c003e410dd483');
-define( 'LOGGED_IN_KEY',    'b464411879b1b48e3356590c0fed3f66ffd60bfd');
-define( 'NONCE_KEY',        '09e367b237bb7433e2f8fad5a2d35eeb74586bbf');
-define( 'AUTH_SALT',        '041efa2d2d556ca298cb0b14381462abd36cb96c');
-define( 'SECURE_AUTH_SALT', '3c68dbbab70867b33a9cd859c264318373d7b242');
-define( 'LOGGED_IN_SALT',   '5c15f80f865ba11db3136d7958567dfb543585c3');
-define( 'NONCE_SALT',       '6e78864fe351bb3ed23b35c46be26fc7ac0e9399');
+define( 'AUTH_KEY',         '746eba2a706390c22e603687f385a1633535fa3d');
+define( 'SECURE_AUTH_KEY',  '818214bb73d161ab94e59d84b83f9e9122084912');
+define( 'LOGGED_IN_KEY',    'e2fad00ea0f777f78a48a6dda8aea695b2c04af4');
+define( 'NONCE_KEY',        '6f4f5848257e5f98be84c992083e7748680231b5');
+define( 'AUTH_SALT',        '585657e47ea534ab57c1aa21877ff542c7bf51ac');
+define( 'SECURE_AUTH_SALT', '7e4928f982d9d9f3a3b83c116ae7fbe5e6544388');
+define( 'LOGGED_IN_SALT',   '37cb46945b1a552e1e892faa6bb5eca80b63e387');
+define( 'NONCE_SALT',       '1fbaf917c21bc2e5348aff995e69bce245620374');
 
 /**#@-*/
 
@@ -97,4 +94,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-

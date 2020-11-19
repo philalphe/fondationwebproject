@@ -281,6 +281,15 @@ if ( ! class_exists( '\SktThemes\PageTemplatesDirectory' ) ) {
 			);
 
 			$templates_list = array(
+				'posterity-elementor'              => array(
+					'title'       => __( 'Posterity', 'skt-templates' ),
+					'description' => __( 'It downloads from our website sktthemes.org, once you do it you will get the exact preview like shown in the demo. Steps after downloading the theme: Upload it via appearance>themes>add new>upload theme zip file and activate the theme.', 'skt-templates' ),
+					'theme_url'   => esc_url('https://www.sktthemes.org/shop/free-creative-agency-wordpress-theme'),
+					'demo_url'    => esc_url('https://demosktthemes.com/free/posterity/'),
+					'screenshot'  => esc_url('https://demosktthemes.com/free/posterity/posterity.jpg'),
+					'import_file' => esc_url('https://demosktthemes.com/free/posterity/posterity.json'),
+					'keywords'    => __( ' posteriy, multipurpose, pet, dogs, chocolate, food, recipe, corporate, construction, real estate, charity, trust, car, automobile, hair, industry, factory, consulting, office, accounting, computers, cafe, fitness, gym, architect, interior' ),
+				),
 				'software-elementor'              => array(
 					'title'       => __( 'Software', 'skt-templates' ),
 					'description' => __( 'It downloads from our website sktthemes.org, once you do it you will get the exact preview like shown in the demo. Steps after downloading the theme: Upload it via appearance>themes>add new>upload theme zip file and activate the theme.', 'skt-templates' ),
